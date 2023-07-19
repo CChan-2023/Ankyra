@@ -1,0 +1,14 @@
+.navbar{
+  display: flex;
+  height: 60px;
+  margin-bottom: 6px;
+  border-bottom: 5px solid #30beff;
+  .logo{
+    height: 60px;
+    margin-right: 250px;
+  }
+  .menu{
+    height: 35px;
+    cursor: pointer;
+  }
+}
