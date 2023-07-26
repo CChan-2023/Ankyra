@@ -19,21 +19,23 @@
 }
 .btn{
   margin-top: 200px;
-  margin-left: 50px;
+  margin-left: 30px;
   height: 50px;
   border-radius: 9px;
   background-color: #189DB3;
   color: white;
   font-size: 20px;
   font-weight: 700;
+  width: 110px;
 }
 .btn2{
   margin-top: 200px;
-  margin-left: 5px;
+  margin-left: 1px;
   height: 50px;
   border-radius: 9px;
-  background-color: whitesmoke;
+  background-color: white;
   color: gray;
   font-size: 20px;
   font-weight: 700;
+  width: 110px;
 }
