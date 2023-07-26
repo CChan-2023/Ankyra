@@ -1,0 +1,21 @@
+.container {
+  background-image: url(/assets/img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.container button{
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  background-color: #2B93A4;
+  border-radius: 15px;
+  padding: 8px;
+  width: 300px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}

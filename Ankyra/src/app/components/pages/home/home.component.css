@@ -1,21 +1,21 @@
-.p{
-  font-size: 30px;
-  font-weight:600;
-  margin-bottom: 0%;
-  margin-left: 30px;
-}
-.h2{
-  font-size: 30x;
-  color: #189DB3;
-  font-weight: 600;
-  margin-top: 0%;
-  margin-left: 30px;
-}
 .container{
   background-image: url(/assets/img/1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  .p{
+    font-size: 30px;
+    font-weight:600;
+    margin-bottom: 0%;
+    margin-left: 30px;
+  }
+  .h2{
+    font-size: 30x;
+    color: #189DB3;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-left: 30px;
+  }
 }
 .btn{
   margin-top: 200px;
@@ -38,4 +38,40 @@
   font-size: 20px;
   font-weight: 700;
   width: 110px;
+}
+.select{
+  margin-top: 5px;
+  margin-left: 30px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 9px;
+  padding: 8px;
+  width: 300px;
+  color: #20363D;
+  font-weight: 700;
+}
+.select-button{
+  margin-top: 5px;
+  margin-left: 30px;
+  height: 50px;
+  display: inline-block;
+  position: relative;
+  background-color: #2B93A4;
+  border-radius: 9px;
+  padding: 8px;
+  width: 300px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.text{
+  width: 300px;
+  font-size: 10px;
+  display: flex;
+  margin-left: 30px;
+  justify-content:space-around;
+  color: #B1B1B1;
+  font-weight: 600;
 }

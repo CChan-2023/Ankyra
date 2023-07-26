@@ -1,0 +1,47 @@
+.title{
+  display: flex;
+  justify-content: center;
+  .t1{
+    padding:0;
+    color: #969696;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .t2{
+    padding: 0;
+    color: #20363D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
+.carousel {
+  display: flex;
+  width: 10px; /* Ajustar el ancho del carrusel según tus necesidades */
+  height: 100px; /* Ajustar la altura del carrusel según tus necesidades */
+}
+.card {
+  flex: 0 0 250px; /* Ajustar el ancho de las cards según tus necesidades */
+  height: 80%;
+  opacity: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease;
+}
+.card.active {
+  opacity: 1;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card h2 {
+  top: 5px;
+  left: 10px;
+  color: #20363D;
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card p {
+  bottom: 0px;
+  left: 10px;
+  color: #969696;
+  margin: 0;
+}

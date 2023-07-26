@@ -1,8 +1,9 @@
+
 .head{
   background-color: #20363D;
   display:flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 8px;
 }
 .division { /* Permite que las divisiones se expandan para llenar el espacio disponible */ /* Establece la altura de las divisiones *//* Establece el color de fondo de las divisiones */
   color: white;
