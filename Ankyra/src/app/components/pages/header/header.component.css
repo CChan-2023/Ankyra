@@ -1,25 +1,19 @@
 .head{
-  background-color: rgb(17, 17, 49);
-  display: flex;
-  padding: 5px;
-  .img{
-    width: 10px;
-    margin-right: 5px;
-  }
+  background-color: #20363D;
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 .division { /* Permite que las divisiones se expandan para llenar el espacio disponible */ /* Establece la altura de las divisiones *//* Establece el color de fondo de las divisiones */
   color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:x-small;
-  margin-right: 5px;
-    .img{
-      width: 10px;
-      margin-right: 5px;
+  margin-right: 10px;
+    .svg{
+      margin-right: 7px;
     }
 }
-.img{
-  width: 10px;
-  height: 10px;
+.svg{
   margin-right: 5px;
 }
 

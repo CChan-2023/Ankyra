@@ -6,7 +6,7 @@
 }
 .h2{
   font-size: 30x;
-  color: #3bade2;
+  color: #189DB3;
   font-weight: 600;
   margin-top: 0%;
   margin-left: 30px;
@@ -14,14 +14,15 @@
 .container{
   background-image: url(/assets/img/1.jpg);
   background-size: cover;
-  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .btn{
   margin-top: 200px;
   margin-left: 50px;
   height: 50px;
   border-radius: 9px;
-  background-color: #30beff;
+  background-color: #189DB3;
   color: white;
   font-size: 20px;
   font-weight: 700;
